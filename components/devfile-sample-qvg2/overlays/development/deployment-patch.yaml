@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-qvg2
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0052-tenant/ci10t-786-0052-app/devfile-sample-qvg2@sha256:0f9fb0a0514471084f9963cc6609c3c9119861b4569513066fd562c30729b234
+        name: my-nodejs
+        resources: {}
+status: {}
